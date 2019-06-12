@@ -1,0 +1,189 @@
+{
+  "stringTable": {
+    "0": "/home/ren/ShampleCode/LearnOpenGles/app/.externalNativeBuild/cmake/debug/x86_64",
+    "1": "--target=x86_64-none-linux-android --gcc-toolchain=/home/ren/AndroidStudio/android-sdk-linux/ndk-bundle/toolchains/x86_64-4.9/prebuilt/linux-x86_64 --sysroot=/home/ren/AndroidStudio/android-sdk-linux/ndk-bundle/sysroot -Dlesson_lib_EXPORTS -I/home/ren/ShampleCode/LearnOpenGles/app/src/main/cpp/src/main/cpp -isystem /home/ren/AndroidStudio/android-sdk-linux/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/ren/AndroidStudio/android-sdk-linux/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86_64/include -isystem /home/ren/AndroidStudio/android-sdk-linux/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward -isystem /home/ren/AndroidStudio/android-sdk-linux/ndk-bundle/sysroot/usr/include/x86_64-linux-android -D__ANDROID_API__=23 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -frtti -fexceptions -std=c++11 -fno-rtti -fno-exceptions -Wall -O0 -fno-limit-debug-info -fPIC"
+  },
+  "buildFiles": [
+    "/home/ren/AndroidStudio/android-sdk-linux/ndk-bundle/build/cmake/android.toolchain.cmake",
+    "/home/ren/ShampleCode/LearnOpenGles/app/src/main/cpp/CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "/home/ren/AndroidStudio/android-sdk-linux/cmake/3.10.2.4988404/bin/cmake --build \"/home/ren/ShampleCode/LearnOpenGles/app/.externalNativeBuild/cmake/debug/x86_64\" --target clean"
+  ],
+  "libraries": {
+    "lesson-lib-Debug-x86_64": {
+      "buildCommand": "/home/ren/AndroidStudio/android-sdk-linux/cmake/3.10.2.4988404/bin/cmake --build \"/home/ren/ShampleCode/LearnOpenGles/app/.externalNativeBuild/cmake/debug/x86_64\" --target lesson-lib",
+      "buildType": "debug",
+      "toolchain": "3681813007",
+      "abi": "x86_64",
+      "artifactName": "lesson-lib",
+      "files": [
+        {
+          "src": "/home/ren/ShampleCode/LearnOpenGles/app/src/main/cpp/graphics/GLUtils.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/ren/ShampleCode/LearnOpenGles/app/src/main/cpp/graphics/Matrix.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/ren/ShampleCode/LearnOpenGles/app/src/main/cpp/lesson1/Native1Lesson.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/ren/ShampleCode/LearnOpenGles/app/src/main/cpp/lesson2/Native2Lesson.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/ren/ShampleCode/LearnOpenGles/app/src/main/cpp/lesson3/Native3Lesson.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/ren/ShampleCode/LearnOpenGles/app/src/main/cpp/lesson4/Native4Lesson.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/ren/ShampleCode/LearnOpenGles/app/src/main/cpp/lesson5/Native5Lesson.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/ren/ShampleCode/LearnOpenGles/app/src/main/cpp/lesson6/Native6Lesson.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/ren/ShampleCode/LearnOpenGles/app/src/main/cpp/lesson7/Native7Lesson.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/ren/ShampleCode/LearnOpenGles/app/src/main/cpp/lesson7/Cubes.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/ren/ShampleCode/LearnOpenGles/app/src/main/cpp/lesson7/CubesClientSide.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/ren/ShampleCode/LearnOpenGles/app/src/main/cpp/lesson7/CubesClientSideWithStride.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/ren/ShampleCode/LearnOpenGles/app/src/main/cpp/lesson7/CubesWithVbo.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/ren/ShampleCode/LearnOpenGles/app/src/main/cpp/lesson7/CubesWithVboWithStride.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/ren/ShampleCode/LearnOpenGles/app/src/main/cpp/lesson7/GenData.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/ren/ShampleCode/LearnOpenGles/app/src/main/cpp/lesson8/Native8Lesson.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/ren/ShampleCode/LearnOpenGles/app/src/main/cpp/lesson8/HeightMap.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "headers": [
+        {
+          "header": "/home/ren/ShampleCode/LearnOpenGles/app/src/main/cpp/graphics/GLUtils.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "/home/ren/ShampleCode/LearnOpenGles/app/src/main/cpp/graphics/Matrix.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "/home/ren/ShampleCode/LearnOpenGles/app/src/main/cpp/lesson1/Native1Lesson.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "/home/ren/ShampleCode/LearnOpenGles/app/src/main/cpp/lesson2/Native2Lesson.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "/home/ren/ShampleCode/LearnOpenGles/app/src/main/cpp/lesson3/Native3Lesson.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "/home/ren/ShampleCode/LearnOpenGles/app/src/main/cpp/lesson4/Native4Lesson.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "/home/ren/ShampleCode/LearnOpenGles/app/src/main/cpp/lesson5/Native5Lesson.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "/home/ren/ShampleCode/LearnOpenGles/app/src/main/cpp/lesson6/Native6Lesson.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "/home/ren/ShampleCode/LearnOpenGles/app/src/main/cpp/lesson7/Native7Lesson.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "/home/ren/ShampleCode/LearnOpenGles/app/src/main/cpp/lesson7/Cubes.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "/home/ren/ShampleCode/LearnOpenGles/app/src/main/cpp/lesson7/CubesClientSide.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "/home/ren/ShampleCode/LearnOpenGles/app/src/main/cpp/lesson7/CubesClientSideWithStride.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "/home/ren/ShampleCode/LearnOpenGles/app/src/main/cpp/lesson7/CubesWithVbo.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "/home/ren/ShampleCode/LearnOpenGles/app/src/main/cpp/lesson7/CubesWithVboWithStride.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "/home/ren/ShampleCode/LearnOpenGles/app/src/main/cpp/lesson7/GenData.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "/home/ren/ShampleCode/LearnOpenGles/app/src/main/cpp/lesson8/Native8Lesson.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "/home/ren/ShampleCode/LearnOpenGles/app/src/main/cpp/lesson8/HeightMap.h",
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "output": "/home/ren/ShampleCode/LearnOpenGles/app/build/intermediates/cmake/debug/obj/x86_64/liblesson-lib.so"
+    }
+  },
+  "toolchains": {
+    "3681813007": {
+      "cppCompilerExecutable": "/home/ren/AndroidStudio/android-sdk-linux/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++"
+    }
+  },
+  "cFileExtensions": [],
+  "cppFileExtensions": [
+    "cpp"
+  ]
+}

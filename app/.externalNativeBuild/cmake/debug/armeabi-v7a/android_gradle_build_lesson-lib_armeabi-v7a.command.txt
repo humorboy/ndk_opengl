@@ -1,0 +1,8 @@
+Executable : /home/ren/AndroidStudio/android-sdk-linux/cmake/3.10.2.4988404/bin/cmake
+arguments : 
+--build
+/home/ren/ShampleCode/LearnOpenGles/app/.externalNativeBuild/cmake/debug/armeabi-v7a
+--target
+lesson-lib
+jvmArgs : 
+

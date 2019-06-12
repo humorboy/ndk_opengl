@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.learnopengles.android.cpp">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+        </activity>
+
+        <activity android:name=".TableOfContents">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".lesson1.LessonOneActivity"
+            android:label="@string/lesson_one"/>
+
+        <activity
+            android:name=".lesson2.LessonTwoActivity"
+            android:label="@string/lesson_two"/>
+
+        <activity
+            android:name=".lesson3.LessonThreeActivity"
+            android:label="@string/lesson_three"/>
+
+        <activity
+            android:name=".lesson4.LessonFourActivity"
+            android:label="@string/lesson_four"/>
+
+        <activity
+            android:name=".lesson5.LessonFiveActivity"
+            android:label="@string/lesson_five"/>
+
+        <activity
+            android:name=".lesson6.LessonSixActivity"
+            android:label="@string/lesson_six"/>
+
+        <activity
+            android:name=".lesson7.LessonSevenActivity"
+            android:label="@string/lesson_seven"/>
+
+        <activity
+            android:name=".lesson8.LessonEightActivity"
+            android:label="@string/lesson_eight"/>
+
+    </application>
+
+</manifest>

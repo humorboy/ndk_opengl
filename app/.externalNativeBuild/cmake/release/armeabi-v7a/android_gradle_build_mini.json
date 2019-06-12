@@ -1,0 +1,17 @@
+{
+  "buildFiles": [
+    "/home/ren/AndroidStudio/android-sdk-linux/ndk-bundle/build/cmake/android.toolchain.cmake",
+    "/home/ren/ShampleCode/LearnOpenGles/app/src/main/cpp/CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "/home/ren/AndroidStudio/android-sdk-linux/cmake/3.10.2.4988404/bin/cmake --build \"/home/ren/ShampleCode/LearnOpenGles/app/.externalNativeBuild/cmake/release/armeabi-v7a\" --target clean"
+  ],
+  "libraries": {
+    "lesson-lib-Release-armeabi-v7a": {
+      "artifactName": "lesson-lib",
+      "buildCommand": "/home/ren/AndroidStudio/android-sdk-linux/cmake/3.10.2.4988404/bin/cmake --build \"/home/ren/ShampleCode/LearnOpenGles/app/.externalNativeBuild/cmake/release/armeabi-v7a\" --target lesson-lib",
+      "abi": "armeabi-v7a",
+      "output": "/home/ren/ShampleCode/LearnOpenGles/app/build/intermediates/cmake/release/obj/armeabi-v7a/liblesson-lib.so"
+    }
+  }
+}

@@ -1,0 +1,20 @@
+Executable : /home/ren/AndroidStudio/android-sdk-linux/cmake/3.10.2.4988404/bin/cmake
+arguments : 
+-H/home/ren/ShampleCode/LearnOpenGles/app/src/main/cpp
+-B/home/ren/ShampleCode/LearnOpenGles/app/.externalNativeBuild/cmake/debug/x86
+-DANDROID_ABI=x86
+-DANDROID_PLATFORM=android-23
+-DCMAKE_LIBRARY_OUTPUT_DIRECTORY=/home/ren/ShampleCode/LearnOpenGles/app/build/intermediates/cmake/debug/obj/x86
+-DCMAKE_BUILD_TYPE=Debug
+-DANDROID_NDK=/home/ren/AndroidStudio/android-sdk-linux/ndk-bundle
+-DCMAKE_CXX_FLAGS=-frtti -fexceptions
+-DCMAKE_SYSTEM_NAME=Android
+-DCMAKE_ANDROID_ARCH_ABI=x86
+-DCMAKE_SYSTEM_VERSION=23
+-DCMAKE_EXPORT_COMPILE_COMMANDS=ON
+-DCMAKE_ANDROID_NDK=/home/ren/AndroidStudio/android-sdk-linux/ndk-bundle
+-DCMAKE_TOOLCHAIN_FILE=/home/ren/AndroidStudio/android-sdk-linux/ndk-bundle/build/cmake/android.toolchain.cmake
+-G Ninja
+-DCMAKE_MAKE_PROGRAM=/home/ren/AndroidStudio/android-sdk-linux/cmake/3.10.2.4988404/bin/ninja
+jvmArgs : 
+

@@ -1,0 +1,167 @@
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"supportedProtocolVersions":[{"isExperimental":true,"major":1,"minor":1}],"type":"hello"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {
+  "type": "handshake",
+  "cookie": "gradle-cmake-cookie",
+  "protocolVersion": {
+    "isExperimental": true,
+    "major": 1,
+    "minor": 1
+  },
+  "sourceDirectory": "/home/ren/ShampleCode/LearnOpenGles/app/src/main/cpp",
+  "buildDirectory": "/home/ren/ShampleCode/LearnOpenGles/app/.externalNativeBuild/cmake/debug/x86",
+  "generator": "Ninja"
+}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"gradle-cmake-cookie","inReplyTo":"handshake","type":"reply"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {
+  "type": "configure",
+  "cacheArguments": [
+    "",
+    "-DANDROID_ABI\u003dx86",
+    "-DANDROID_PLATFORM\u003dandroid-23",
+    "-DCMAKE_LIBRARY_OUTPUT_DIRECTORY\u003d/home/ren/ShampleCode/LearnOpenGles/app/build/intermediates/cmake/debug/obj/x86",
+    "-DCMAKE_BUILD_TYPE\u003dDebug",
+    "-DANDROID_NDK\u003d/home/ren/AndroidStudio/android-sdk-linux/ndk-bundle",
+    "-DCMAKE_CXX_FLAGS\u003d-frtti -fexceptions",
+    "-DCMAKE_SYSTEM_NAME\u003dAndroid",
+    "-DCMAKE_ANDROID_ARCH_ABI\u003dx86",
+    "-DCMAKE_SYSTEM_VERSION\u003d23",
+    "-DCMAKE_EXPORT_COMPILE_COMMANDS\u003dON",
+    "-DCMAKE_ANDROID_NDK\u003d/home/ren/AndroidStudio/android-sdk-linux/ndk-bundle",
+    "-DCMAKE_TOOLCHAIN_FILE\u003d/home/ren/AndroidStudio/android-sdk-linux/ndk-bundle/build/cmake/android.toolchain.cmake",
+    "-G Ninja",
+    "-DCMAKE_MAKE_PROGRAM\u003d/home/ren/AndroidStudio/android-sdk-linux/cmake/3.10.2.4988404/bin/ninja"
+  ]
+}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"CMake Warning at /home/ren/AndroidStudio/android-sdk-linux/ndk-bundle/build/cmake/android.toolchain.cmake:63 (message):\n  Using custom NDK path (ANDROID_NDK is set):\n  /home/ren/AndroidStudio/android-sdk-linux/ndk-bundle\nCall Stack (most recent call first):\n  /home/ren/ShampleCode/LearnOpenGles/app/.externalNativeBuild/cmake/debug/x86/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)\n  CMakeLists.txt\n\n","title":"Warning","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: CMake Warning at /home/ren/AndroidStudio/android-sdk-linux/ndk-bundle/build/cmake/android.toolchain.cmake:63 (message):
+  Using custom NDK path (ANDROID_NDK is set):
+  /home/ren/AndroidStudio/android-sdk-linux/ndk-bundle
+Call Stack (most recent call first):
+  /home/ren/ShampleCode/LearnOpenGles/app/.externalNativeBuild/cmake/debug/x86/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)
+  CMakeLists.txt
+
+
+CMAKE SERVER: CMake Warning at /home/ren/AndroidStudio/android-sdk-linux/ndk-bundle/build/cmake/android.toolchain.cmake:63 (message):
+  Using custom NDK path (ANDROID_NDK is set):
+  /home/ren/AndroidStudio/android-sdk-linux/ndk-bundle
+Call Stack (most recent call first):
+  /home/ren/ShampleCode/LearnOpenGles/app/.externalNativeBuild/cmake/debug/x86/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)
+  CMakeLists.txt
+
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","progressCurrent":1000,"progressMaximum":1000,"progressMessage":"Configuring","progressMinimum":0,"type":"progress"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"Configuring done","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: Configuring done
+CMAKE SERVER: Configuring done
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","type":"reply"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"type":"compute"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"compute","progressCurrent":1000,"progressMaximum":1000,"progressMessage":"Generating","progressMinimum":0,"type":"progress"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"compute","message":"Generating done","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: Generating done
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"compute","type":"reply"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"type":"cmakeInputs"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"buildFiles":[{"isCMake":true,"isTemporary":false,"sources":["/home/ren/AndroidStudio/android-sdk-linux/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeSystemSpecificInitialize.cmake","/home/ren/AndroidStudio/android-sdk-linux/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Initialize.cmake","/home/ren/AndroidStudio/android-sdk-linux/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeSystemSpecificInformation.cmake","/home/ren/AndroidStudio/android-sdk-linux/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeGenericSystem.cmake","/home/ren/AndroidStudio/android-sdk-linux/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android.cmake","/home/ren/AndroidStudio/android-sdk-linux/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Linux.cmake","/home/ren/AndroidStudio/android-sdk-linux/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/UnixPaths.cmake","/home/ren/AndroidStudio/android-sdk-linux/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCInformation.cmake","/home/ren/AndroidStudio/android-sdk-linux/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeLanguageInformation.cmake","/home/ren/AndroidStudio/android-sdk-linux/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-C.cmake","/home/ren/AndroidStudio/android-sdk-linux/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang.cmake","/home/ren/AndroidStudio/android-sdk-linux/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/CMakeCommonCompilerMacros.cmake","/home/ren/AndroidStudio/android-sdk-linux/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/GNU.cmake","/home/ren/AndroidStudio/android-sdk-linux/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/CMakeCommonCompilerMacros.cmake","/home/ren/AndroidStudio/android-sdk-linux/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Clang-C.cmake","/home/ren/AndroidStudio/android-sdk-linux/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Clang.cmake","/home/ren/AndroidStudio/android-sdk-linux/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCommonLanguageInclude.cmake","/home/ren/AndroidStudio/android-sdk-linux/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCXXInformation.cmake","/home/ren/AndroidStudio/android-sdk-linux/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeLanguageInformation.cmake","/home/ren/AndroidStudio/android-sdk-linux/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX.cmake","/home/ren/AndroidStudio/android-sdk-linux/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang.cmake","/home/ren/AndroidStudio/android-sdk-linux/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Clang-CXX.cmake","/home/ren/AndroidStudio/android-sdk-linux/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Clang.cmake","/home/ren/AndroidStudio/android-sdk-linux/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCommonLanguageInclude.cmake"]},{"isCMake":false,"isTemporary":false,"sources":["CMakeLists.txt","/home/ren/AndroidStudio/android-sdk-linux/ndk-bundle/build/cmake/android.toolchain.cmake"]},{"isCMake":false,"isTemporary":true,"sources":["../../../.externalNativeBuild/cmake/debug/x86/CMakeFiles/3.10.2/CMakeSystem.cmake","../../../.externalNativeBuild/cmake/debug/x86/CMakeFiles/3.10.2/CMakeCCompiler.cmake","../../../.externalNativeBuild/cmake/debug/x86/CMakeFiles/3.10.2/CMakeCXXCompiler.cmake"]}],"cmakeRootDirectory":"/home/ren/AndroidStudio/android-sdk-linux/cmake/3.10.2.4988404/share/cmake-3.10","cookie":"","inReplyTo":"cmakeInputs","sourceDirectory":"/home/ren/ShampleCode/LearnOpenGles/app/src/main/cpp","type":"reply"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"type":"codemodel"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"configurations":[{"name":"Debug","projects":[{"buildDirectory":"/home/ren/ShampleCode/LearnOpenGles/app/.externalNativeBuild/cmake/debug/x86","name":"Project","sourceDirectory":"/home/ren/ShampleCode/LearnOpenGles/app/src/main/cpp","targets":[{"artifacts":["/home/ren/ShampleCode/LearnOpenGles/app/build/intermediates/cmake/debug/obj/x86/liblesson-lib.so"],"buildDirectory":"/home/ren/ShampleCode/LearnOpenGles/app/.externalNativeBuild/cmake/debug/x86","fileGroups":[{"compileFlags":"-isystem /home/ren/AndroidStudio/android-sdk-linux/ndk-bundle/sysroot/usr/include/i686-linux-android -D__ANDROID_API__=23 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security  -frtti -fexceptions -std=c++11 -fno-rtti -fno-exceptions -Wall -O0 -fno-limit-debug-info  -fPIC  ","defines":["lesson_lib_EXPORTS"],"includePath":[{"path":"/home/ren/ShampleCode/LearnOpenGles/app/src/main/cpp/src/main/cpp"},{"isSystem":true,"path":"/home/ren/AndroidStudio/android-sdk-linux/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include"},{"isSystem":true,"path":"/home/ren/AndroidStudio/android-sdk-linux/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86/include"},{"isSystem":true,"path":"/home/ren/AndroidStudio/android-sdk-linux/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward"}],"isGenerated":false,"language":"CXX","sources":["graphics/GLUtils.cpp","graphics/Matrix.cpp","lesson1/Native1Lesson.cpp","lesson2/Native2Lesson.cpp","lesson3/Native3Lesson.cpp","lesson4/Native4Lesson.cpp","lesson5/Native5Lesson.cpp","lesson6/Native6Lesson.cpp","lesson7/Native7Lesson.cpp","lesson7/Cubes.cpp","lesson7/CubesClientSide.cpp","lesson7/CubesClientSideWithStride.cpp","lesson7/CubesWithVbo.cpp","lesson7/CubesWithVboWithStride.cpp","lesson7/GenData.cpp","lesson8/Native8Lesson.cpp","lesson8/HeightMap.cpp"]},{"isGenerated":false,"sources":["graphics/GLUtils.h","graphics/Matrix.h","lesson1/Native1Lesson.h","lesson2/Native2Lesson.h","lesson3/Native3Lesson.h","lesson4/Native4Lesson.h","lesson5/Native5Lesson.h","lesson6/Native6Lesson.h","lesson7/Native7Lesson.h","lesson7/Cubes.h","lesson7/CubesClientSide.h","lesson7/CubesClientSideWithStride.h","lesson7/CubesWithVbo.h","lesson7/CubesWithVboWithStride.h","lesson7/GenData.h","lesson8/Native8Lesson.h","lesson8/HeightMap.h"]}],"fullName":"liblesson-lib.so","linkFlags":"-Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libatomic.a --sysroot /home/ren/AndroidStudio/android-sdk-linux/ndk-bundle/platforms/android-23/arch-x86 -Wl,--build-id -Wl,--warn-shared-textrel -Wl,--fatal-warnings -Wl,--no-undefined -Wl,-z,noexecstack -Qunused-arguments -Wl,-z,relro -Wl,-z,now","linkLibraries":"-lEGL -lGLESv2 -landroid /home/ren/AndroidStudio/android-sdk-linux/ndk-bundle/platforms/android-23/arch-x86/usr/lib/liblog.so -latomic -lm \"/home/ren/AndroidStudio/android-sdk-linux/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86/libgnustl_static.a\"","linkerLanguage":"CXX","name":"lesson-lib","sourceDirectory":"/home/ren/ShampleCode/LearnOpenGles/app/src/main/cpp","sysroot":"/home/ren/AndroidStudio/android-sdk-linux/ndk-bundle/sysroot","type":"SHARED_LIBRARY"}]}]}],"cookie":"","inReplyTo":"codemodel","type":"reply"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
